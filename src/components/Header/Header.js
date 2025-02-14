@@ -26,8 +26,8 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex  justify-between border-b-[1px] w-full items-center px-10 h-24">
-        <div className="flex gap-x-1 items-center">
+      <div className="flex full justify-between border-b-[1px] w-full items-center px-10 h-24">
+        <div className="flex full gap-x-1 items-center">
             <img src={loc} alt="" />
         <select
           className="font-Vazir w-[107px] max-h-[60px] h-[40px] "
@@ -60,9 +60,9 @@ export default function Header() {
         <h1 className="font-Popins">Starweather</h1>
       </div>
 
-        <div className="flex w-[437px] h-[637px] justify-center">
+        <div className="flex w-full justify-center">
       {weather && (
-        <div className="w-full h-full flex flex-col justify-start items-center">
+        <div className=" h-full flex flex-col justify-start items-center">
             <img className="w-[200px]  h-[200px]" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt="" />
               <p className="text-[80px] text-[#051320] ">{Math.floor(weather.main.temp - 273)}°C</p>
               <div>
