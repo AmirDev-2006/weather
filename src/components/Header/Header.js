@@ -67,7 +67,7 @@ export default function Header() {
               <div>
                 <p>{weather.name}</p>
               </div>
-              <div className="w-full h-24 rounded-xl p-6 flex items-center flex-col border gap-y-5 justify-between border-white/5 ">
+              <div className="w-full h-24 rounded-xl p-6 px-20 flex items-center flex-col border gap-y-5 justify-between border-white/5 ">
                 <div className="flex justify-between w-full">
               <span>رطوبت</span>
               <p>{weather.main.humidity}%</p>
