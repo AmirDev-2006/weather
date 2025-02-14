@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family:"Popins";
+        src: url("../src/assets/fonts/Poppins-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url("../src/assets/fonts/Vazir.ttf") format("truetype");
+    }
+}
