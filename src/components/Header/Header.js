@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import loc from '../../assets/images/location.png'
 import '../../App.css'
+import '../../index.css'
 export default function Header() {
   const [selectedValue, setSelectedValue] = useState("");
   const [weather, setWeather] = useState(null);
@@ -59,7 +60,7 @@ export default function Header() {
         <h1 className="font-Popins">Starweather</h1>
       </div>
 
-        <div className="flex w-[488px] h-[637px] justify-center">
+        <div className="flex w-[437px] h-[637px] justify-center">
       {weather && (
         <div className="w-full h-full flex flex-col justify-start items-center">
             <img className="w-[200px]  h-[200px]" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt="" />
@@ -67,7 +68,7 @@ export default function Header() {
               <div>
                 <p>{weather.name}</p>
               </div>
-              <div className="w-full h-24 rounded-xl p-6 px-20 flex items-center flex-col border gap-y-5 justify-between border-white/5 ">
+              <div className="w-full set-width h-24 rounded-xl px-10 py-4  flex items-center flex-col border gap-y-5 justify-between border-white/5 ">
                 <div className="flex justify-between w-full">
               <span>رطوبت</span>
               <p>{weather.main.humidity}%</p>

@@ -12,3 +12,14 @@
         src: url("../src/assets/fonts/Vazir.ttf") format("truetype");
     }
 }
+
+@media screen and (max-width:700px) {
+    .set-width{
+        width: 300px;
+    }
+  }
+  @media screen and (min-width:700px) {
+    .set-hidden{
+        display: none;
+    }
+  }
