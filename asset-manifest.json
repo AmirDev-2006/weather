@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.aa795984.css",
+    "main.js": "/weather/static/js/main.75c8e0cf.js",
+    "static/media/Poppins-Regular.ttf": "/weather/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Vazir.ttf": "/weather/static/media/Vazir.8698ab7164cb8aa9f35b.ttf",
+    "index.html": "/weather/index.html",
+    "main.aa795984.css.map": "/weather/static/css/main.aa795984.css.map",
+    "main.75c8e0cf.js.map": "/weather/static/js/main.75c8e0cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa795984.css",
+    "static/js/main.75c8e0cf.js"
+  ]
+}
