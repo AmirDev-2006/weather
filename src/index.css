@@ -18,8 +18,9 @@
         width: 300px;
     }
   }
-  @media screen and (min-width:700px) {
-    .set-hidden{
-        display: none;
+  @media screen and (min-width:500px) {
+    .full{
+        width: 500px;
+        height: 100vh;
     }
   }

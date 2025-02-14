@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex justify-between border-b-[1px] w-full items-center px-10 h-24">
+      <div className="flex  justify-between border-b-[1px] w-full items-center px-10 h-24">
         <div className="flex gap-x-1 items-center">
             <img src={loc} alt="" />
         <select
